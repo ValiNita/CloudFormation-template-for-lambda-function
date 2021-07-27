@@ -1,5 +1,5 @@
 1. Am creat un bucket cu comanda aws s3 mb s3://vn-lambda-function-bucket --region eu-west-1
-2. Am ceat documentul yaml ( este in repo )
+2. Am creat documentul yaml ( este in repo )
 3. Am creat un stack cu comanda aws cloudformation create-stack --stack-name vn-lambda-stack --template-body file://lambdaf.yml --capabilities CAPABILITY_NAMED_IAM
 StackId: arn:aws:cloudformation:eu-west-1:932627707940:stack/vn-lambda-stack/97950e00-eeed-11eb-9194-06871d626f27
 4.Am verificat upload/download dar si invocat functia cu comenzile 
